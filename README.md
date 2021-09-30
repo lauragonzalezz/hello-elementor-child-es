@@ -16,4 +16,4 @@ Description: Tema para Nombre del Sitio Web. Tema hijo de Hello Elementor.
 
 4. Ya puedes ir a Apariencia -> Temas y activar el nuevo tema.
 
-*No olvides que después debes configurar los Ajustes del sitio de Elementor, y que también debes construir las partes de tu plantilla en el maquetador de temas.
+**No olvides que después debes configurar los Ajustes del sitio de Elementor, y que también debes construir las partes de tu plantilla en el maquetador de temas.**
