@@ -1,0 +1,60 @@
+/* 
+Theme Name: Hello Elementor Child theme
+Description: Child theme for Hello Elementor.
+Author: Laura González
+Author URI: https://lauragonzalezz.com/
+Template: hello-elementor
+Version: 1.0.1
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+/*
+Reemplazar estos colores: Enlace normal #3480B2, Enlace al pasar el cursor #20376C
+*/
+a {color: #3480B2;}
+a:active, a:hover {color: #20376C;}
+*:focus {outline: none!important;}
+
+/*Opcionales para sobrescribir fuente en donde no toma la de elementor en algunas versiones, ni los colores de algunos botones*/
+/*body, h1, h2, h3, h4, h5, h6, p {font-family: Roboto, Arial, sans-serif;}
+[type=button], [type=submit], button {color: #fff; border: none;}*/
+
+/*Dispositivos más grandes que móviles*/
+@media all and (min-width: 768px) {
+	
+}
+
+/*Dispositivos más grandes que tablets*/
+@media all and (min-width: 1025px) {
+	
+}
+
+/*Portátiles comunes y más grande*/
+@media all and (min-width: 1320px) {
+	html {font-size: 17px;}/*Si se usan tamaños de fuente en rem se verá 106.25% más grande en dispositivos arriba de 1320px*/
+	
+}
+
+/*Tamaño intermedio entre portátiles comunes y Desktop grande*/
+@media all and (min-width: 1500px) {
+	html {font-size: 18px;}/*Si se usan tamaños de fuente en rem se verá 112.5% más grande en dispositivos arriba de 1500px*/
+	.elementor-section.elementor-section-boxed > .elementor-container {max-width: 1380px;}/*Pueden retirar esta línea si no se necesita aumentar el tamaño del contenedor de elementor en dispositivos arriba de 1500px*/
+}
+
+/*Desktop grande de 1920px, Desktop 4K y Retina*/
+@media all and (min-width: 1800px) {
+	html {font-size: 20px;}/*Si se usan tamaños de fuente en rem se verá 125% más grande en dispositivos arriba de 1800px*/
+	.elementor-section.elementor-section-boxed > .elementor-container {max-width: 1700px;}/*Pueden retirar esta línea si no se necesita aumentar el tamaño del contenedor de elementor en dispositivos arriba de 1800px*/
+}
+
+/*Tablets y móviles*/
+@media all and (max-width: 1024px) {
+	
+}
+
+/*Solo móviles*/
+@media all and (max-width: 767px) {
+	
+}
